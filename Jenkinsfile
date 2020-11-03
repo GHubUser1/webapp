@@ -12,12 +12,12 @@ pipeline {
                 //junit '**/target/surefire-reports/TEST-*.xml'
                 //archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
             }
-			/*post {
-                success {
-                    echo 'Now Archiving To Nexus...'
-                    archiveArtifacts artifacts: '**/target/*.war'
-                }
-            }*/
+			//post {
+                //success {
+                  //  echo 'Now Archiving To Nexus...'
+                   // archiveArtifacts artifacts: '**/target/*.war'
+               // }
+            //}
         }
        /* stage('Deploy') {
             steps {
