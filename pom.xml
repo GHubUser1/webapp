@@ -54,13 +54,7 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<executable>C:\Program Files\java\jdk1.8.0_261\bin\javac.exe</executable>
-				</configuration>
-			</plugin>
+
 		</plugins>
 	</build>
 </project>
