@@ -6,6 +6,14 @@ pipeline {
             git 'https://github.com/GHubUser1/webapp'
           }
         }
+	stage ("first") {
+            tools {
+               jdk "jdk1.8.0_261"
+            }
+            steps {
+                sh 'java -version'
+            }
+         }
         stage('Build') {
 	    tools {
                jdk "jdk1.8.0_261"
