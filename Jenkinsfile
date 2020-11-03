@@ -20,7 +20,7 @@ pipeline {
                // }
             //}
         }
-       /* stage('Deploy') {
+        stage('Deploy') {
             steps {
                 //input 'Do you approve the deployment?'
                 // copy the application
@@ -28,6 +28,6 @@ pipeline {
                 bat 'copy target/*.war C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps'
             }
         }
-	*/
+	
     }
 }
