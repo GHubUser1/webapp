@@ -57,7 +57,9 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
-				
+				<configuration>
+					<executable>C:\Program Files\java\jdk1.8.0_261\bin</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
