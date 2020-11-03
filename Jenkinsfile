@@ -7,6 +7,9 @@ pipeline {
           }
         }
         stage('Build') {
+	    tools {
+               jdk "jdk1.8.0_261"
+            }
             steps {
                 bat 'mvn clean package'
                 //junit '**/target/surefire-reports/TEST-*.xml'
