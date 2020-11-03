@@ -25,7 +25,7 @@ pipeline {
                 //input 'Do you approve the deployment?'
                 // copy the application
                 //sh 'scp target/*.war jenkins@192.168.50.10:/opt/pet/'
-                bat 'cd target copy "*.war" "C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps"'
+                bat 'cd target && copy "*.war" "C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps"'
             }
         }
 	
